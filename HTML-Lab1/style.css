@@ -1,0 +1,68 @@
+html, body {text-align: left;
+            text-anchor: left;
+            font-weight: 500; 
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#defff7;
+            margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {color: #e88686;
+   }
+
+p, ul, table {
+ color: #4f3157; 
+}
+button { background-color: pink;
+       }
+
+{
+  box-sizing: border-box;
+}
+
+.sidenav {
+  height: 150%;
+  width: 125px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #acfff2;
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  color: #833896;
+  padding: 16px;
+  font-weight:400;
+  text-decoration: none;
+  display: block;
+}
+
+.sidenav a:hover {
+  
+  background-color: #c6c2f8;
+  color: lightcoral;
+}
+
+.content {
+  margin-left: 150px;
+  padding-left: 20px;
+}
+
+.img-with-text {
+  text-align: left;
+  font-size: small;
+    font-weight: 400;
+    width: [175%];
+}
+
+.img-with-text img {
+    display: float;
+    margin: 2px;
+}
+.column {
+  float: left;
+  width: 33%;
+  padding: 15px;
